@@ -1,0 +1,7 @@
+1).carrousel_container doi prendre 5*33,33% de son parent #carrousel
+2)calculer le ratio d'lément visible
+ratio=nbr_enfant/nbr_enfant_to_show =>le ration qu'on veut afficher sur le  carrousel
+3)chaque .divImg doit prendre 1/3 de(le pondéré avec le ration sinon il se basera du width total du container) l'espace disponible
+ itemWidth=((nbr_enfant_to_show/ratio)/100)+"%"
+
+element,nbrItemVisible,nbrElemtToSlide,loop

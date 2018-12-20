@@ -1,0 +1,42 @@
+#carrousel{
+  position: relative;
+  overflow: hidden;
+}
+.carrousel_container{
+  transition: transform 0.3s;
+  transform: translate3d(0,0,0);
+}
+.carrousel_container::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+.imgDiv{
+  float: left;
+}
+.imgDiv img{
+  width: 96%;
+  height:290px;
+}
+.navCarrousel{
+  position: absolute;
+  float: left;
+  cursor: pointer;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.3;
+}
+.navCarrousel:hover{
+  transform:scale(1.1);
+}
+#nextButton{
+  right:0;
+}
+
+.hidden{
+  opacity: 0;
+  left: -1333333px;
+}

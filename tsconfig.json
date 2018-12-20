@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "out": "carousel.js",
+        "sourceMap": true,
+        "target": "es5"
+    },
+    "files": [
+        "carousel.ts"
+    ]
+}
